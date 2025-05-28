@@ -1,0 +1,15 @@
+{{define "results"}}
+    {{- if .Articles }}
+        <h2 class="text-xl font-semibold mb-4">Top 10 Resultados para "{{.Query}}"</h2>
+        {{- range .Articles }}
+            <div class="mb-6 border-b pb-4">
+                <h3 class="text-lg font-bold">
+                    <a href="{{ .URL }}" target="_blank" class="text-blue-700 hover:underline">{{ .Title }}</a>
+                </h3>
+                <p class="text-gray-700">{{ .Description }}</p>
+            </div>
+        {{- end }}
+    {{- else if .Query }}
+        <p class="text-gray-600">Nenhum resultado encontrado.</p>
+    {{- end }}
+{{end}}
