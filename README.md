@@ -1,14 +1,14 @@
-# 📰 NewsGO
+# NewsGO
 
 **NewsGO** é uma aplicação web simples e moderna desenvolvida em Go que consome a [NewsAPI](https://newsapi.org/) para exibir as 10 notícias mais relevantes sobre um assunto pesquisado. Com um front-end estilizado usando TailwindCSS.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- 🔍 Campo de busca por temas de interesse
-- 📄 Listagem de até 10 notícias mais relevantes
-- 🖼️ Layout responsivo e moderno com TailwindCSS
+- Campo de busca por temas de interesse
+- Listagem de até 10 notícias mais relevantes
+- Layout responsivo e moderno com TailwindCSS
 
-## 🧱 Estrutura do Projeto (MVC)
+## Estrutura do Projeto (MVC)
 
 ```
 newsgo/
@@ -24,13 +24,13 @@ newsgo/
 └── README.md
 ```
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - [Go](https://golang.org/)
 - [NewsAPI](https://newsapi.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 
-## ⚙️ Como executar
+## Como executar
 
 1. Clone este repositório:
    ```bash
